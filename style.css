@@ -1,0 +1,210 @@
+@font-face {
+    font-family: site;
+    src: url(site.ttf);
+}
+
+* {
+    font-family: site;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#logo {
+    margin-left: 200px;
+    width: 50px;
+    height: 30px;
+}
+
+.navlistul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin-right: 200px;
+}
+
+li {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.p-dimension {
+    font-size: 12px;
+
+}
+
+#h1-dimension {
+    margin: 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.image {
+    
+}
+
+#container1-image {
+    width: 550px;
+    /* border: 1px solid black; */
+}
+
+.bottom-section {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 25px;
+}
+
+.bottom-section-1 {
+    width: 180px;
+}
+
+.bottom-section-2 {
+    width: 310px;
+}
+
+#red-btn {
+    margin-top:30px;
+}
+
+.red-button {
+    text-decoration: none;
+    color: white;
+    /* font-size: 12px; */
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px 20px;
+    font-weight: bold;
+    /* margin-top: 20px; */
+}
+
+.right-section {
+    color: hsl(36, 100%, 99%);
+    background-color:  hsl(240, 100%, 5%);
+    /* border: 1px solid black; */
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+.right-section-1 {
+    width: 200px;
+}
+
+#right-section-1-h2 {
+    color:  hsl(35, 77%, 62%);
+}
+
+.right-section-2 {
+    width: 200px;
+}
+
+.right-section-3 {
+    width: 220px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.image-dimensions {
+    width: 30%;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.footer-h2-specs {
+    margin: 0;
+    color:  hsl(233, 8%, 79%);
+}
+
+.footer-h4-specs {
+    margin: 0;
+}
+
+.footer-p-specs {
+    margin: 0;
+    width: 150px;
+    font-size: 12px;
+}
+
+
+.footer1 {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.footer2 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.footer3 {
+    display: flex;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Write your CSS properties here */
+    .navbar {
+       /* width: 400px; */
+       justify-content: center;
+    }
+    
+    li {
+        font-size: 10px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #logo {
+        /* width: 200px; */
+    }
+
+    #container1-image {
+        width: 300px;
+    }
+
+    .p-dimension {
+        width: 250px;
+        font-size: 10px;
+    }
+
+    .right-section {
+        margin-top: 50px;
+    
+    }
+
+    .footer-h4-specs {
+        width: 300px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+    .footer1, .footer2, .footer3 {
+        margin-top: 20px;
+    }
+}
